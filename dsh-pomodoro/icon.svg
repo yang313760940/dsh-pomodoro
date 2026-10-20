@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Pomodoro">
+  <defs>
+    <linearGradient id="pomo-body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff7a6b"/>
+      <stop offset="1" stop-color="#d93b2b"/>
+    </linearGradient>
+  </defs>
+  <circle cx="32" cy="36" r="21" fill="url(#pomo-body)"/>
+  <path d="M32 28c0-6-5-9-10-8 1 5 5 8 10 8Z" fill="#2f9e44"/>
+  <path d="M32 28c0-6 5-9 10-8-1 5-5 8-10 8Z" fill="#37b24d"/>
+  <path d="M32 15v7" stroke="#2f9e44" stroke-width="4" stroke-linecap="round"/>
+  <path d="M24 35a8 8 0 0 1 6-7" stroke="#fff" stroke-opacity=".65" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <path d="M14 17l4 4M50 17l-4 4" stroke="#b02a1c" stroke-width="3" stroke-linecap="round"/>
+</svg>

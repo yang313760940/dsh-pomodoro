@@ -1,0 +1,9 @@
+# dsh-pomodoro bundle layer.
+#
+# One Loader entry activates both halves: the Host half is this row's `index.js`
+# (it mounts the fenced /pomodoro/api persistence route), and the browser half
+# is discovered from package.json's `dsh.client` declaration by dsh-client-modules
+# and served as /plugins/dsh-pomodoro/client.js.
+- insert:
+    - id: dsh-pomodoro
+      name: 'dsh-pomodoro'
